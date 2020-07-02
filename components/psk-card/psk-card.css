@@ -198,3 +198,63 @@ ol>li::before {
         font-size: 1rem;
     }
 }
+
+
+/*specific for first page design*/
+
+psk-link *{
+    cursor: pointer;
+}
+
+.epi-card{
+    background: #11871a;
+    color:white;
+    border-radius:5px ;
+    display: flex;
+    padding: 20px;
+    margin-top:20px;
+}
+
+.epi-card.blue{
+    background: #2092ed;
+}
+
+.epi-card.orange{
+    background:#ffc107;
+}
+.epi-card.green{
+    background: #11871a;
+}
+
+.epi-card .card{
+    width: 100%;
+}
+.epi-card .card-body{
+    display: flex;
+}
+
+.epi-card psk-icon{
+    font-size: 64px;
+}
+
+.epi-card psk-icon .icon{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.epi-card psk-label {
+    order:2;
+    width:100%
+}
+
+.epi-card psk-label label{
+    text-align: right;
+    width: 100%;
+}
+
+.epi-card .card-header h5{
+    color:white;
+    display: block;
+    float:right;
+    padding-top: 5px;
+    padding-bottom: 0;
+}

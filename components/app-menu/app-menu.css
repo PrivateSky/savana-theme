@@ -4,7 +4,8 @@
 
 .navbar.navbar-dark{
     padding: 0;
-    position:static;
+    position: relative;
+    right: 8px;
 }
 
 .navbar-brand {

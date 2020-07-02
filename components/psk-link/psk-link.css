@@ -8,7 +8,7 @@
 
 .btn-link {
     color: #11871a;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .btn-link:focus,
