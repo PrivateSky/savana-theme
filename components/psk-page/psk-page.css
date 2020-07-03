@@ -82,14 +82,14 @@
 
 @media(max-width: 640px) {
 
-  .page-title h1 {
-    padding-left: 20px;
-    font-size: 1.2rem;
-  }
+    .page-title h1 {
+        padding-left: 20px;
+        font-size: 1.2rem;
+    }
 
-  .page-content{
-    padding: 25px 25px 30px;
-  }
+    .page-content{
+        padding: 25px 25px 30px;
+    }
 
 }
 
