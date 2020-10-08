@@ -66,8 +66,8 @@ function build_dossier(callback) {
             return createDossier(callback);
         }
 
-        if(keySSI.getHint() !== BRICK_STORAGE_ENDPOINT){
-            console.log("Endpoint change detected. Creating a new Dossier...");
+        if(keySSI.getDLDomain() !== DEFAULT_DOMAIN){
+            console.log("Domain change detected. Creating a new Dossier...");
             return createDossier(callback);
         }
 
